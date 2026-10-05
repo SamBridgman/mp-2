@@ -20,7 +20,6 @@ export default function CountryList({ countries }: { countries: Country[] }) {
                 <CountryCard key={country.name} region={country.region}>
                     <h1>{country.name}</h1>
                     <p>Population: {country.population}</p>
-                    <p>Alpha 3 Code: {country.alpha3code}</p>
                     <p>Flag: {country.flag}</p>
                 </CountryCard>
             ))}
